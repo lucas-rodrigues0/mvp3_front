@@ -1,0 +1,23 @@
+
+input[type="range"] {
+    writing-mode: vertical-lr;
+    direction: rtl;
+    vertical-align: bottom;
+    background-color: black;
+    height: 120px;
+    accent-color: darkslategray;
+}
+
+input[type="radio"] {
+    accent-color: darkslategray;
+} 
+
+.range-input {
+    width: 100px;
+}
+
+.range-input-text {
+    width: 40px;
+    height: 20px;
+    color: black;
+}
