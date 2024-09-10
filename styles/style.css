@@ -1,23 +1,69 @@
+body {
+  width: 100%;
+  background-color: rgba(255, 255, 248, 0.959);
+}
+
+header {
+  padding: 60px;
+  text-align: center;
+}
 
 input[type="range"] {
-    writing-mode: vertical-lr;
-    direction: rtl;
-    vertical-align: bottom;
-    background-color: black;
-    height: 120px;
-    accent-color: darkslategray;
+  writing-mode: vertical-lr;
+  direction: rtl;
+  vertical-align: bottom;
+  background-color: black;
+  height: 120px;
+  accent-color: darkslategray;
 }
 
 input[type="radio"] {
-    accent-color: darkslategray;
-} 
+  accent-color: darkslategray;
+}
 
 .range-input {
-    width: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding: 5px;
 }
 
 .range-input-text {
-    width: 40px;
-    height: 20px;
-    color: black;
+  width: 60px;
+  height: 20px;
+}
+
+.input-container {
+  width: 95%;
+}
+
+.input-select-card {
+  min-width: 15%;
+}
+
+.input-range-card {
+  min-width: 8%;
+}
+
+.input-card {
+  border: 1px black solid;
+  margin: 2px;
+  padding: 10px;
+  height: 160px;
+  text-align: center;
+}
+
+.btnSize {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.response-card {
+  border: 1px black solid;
+  margin-top: 60px;
+  width: 100%;
+  height: 40px;
+  font-size: 150%;
+  background-color: cadetblue;
 }
